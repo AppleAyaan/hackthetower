@@ -1,8 +1,8 @@
 import Head from 'next/head'
 
 export default ({
-  title = 'AngelHacks – Dedicated to giving back!',
-  description = 'A 12-hour hackathon for middle and high schoolers in Los Angeles.',
+  title = 'Hack the Tower!',
+  description = 'A 12-hour hackathon for middle and high schoolers in Toronto.',
   image = 'https://angelhacks.org/static/banner-inverted.png',
   url = 'https://angelhacks.org'
 }) => (
@@ -26,7 +26,7 @@ export default ({
         __html: JSON.stringify({
           '@context': 'https://schema.org',
           '@type': 'Organization',
-          name: 'angelhacks',
+          name: 'hackthetower',
           url: 'https://angelhacks.org',
           logo: 'https://angelhacks.org/logo_inverted.png',
           sameAs: [
@@ -51,11 +51,11 @@ export default ({
         __html: JSON.stringify({
           '@context': 'http://schema.org/',
           '@type': 'Event',
-          name: 'AngelHacks',
+          name: 'HackTheTower',
           startDate: '2019-10-26T9:00',
           endDate: '2019-10-26T21:00',
           description:
-            'Register today for 12 hours of coding, fun, free food, and prizes. AngelHacks will be on October 26, 2019 and open to all middle and high school students.',
+            'Register now for a packed 12 hours of fun, exciting tech-based workshops and competitions with prizes to be won!',
           isAccessibleForFree: true,
           url: 'https://angelhacks.org',
           image: 'https://angelhacks.org/static/logo-inverted.png',
